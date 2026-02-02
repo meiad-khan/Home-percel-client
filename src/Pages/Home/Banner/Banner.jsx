@@ -8,7 +8,7 @@ import { BsArrowUpRightCircleFill } from 'react-icons/bs';
 
 const Banner = () => {
   return (
-    <div className='relative'>
+    <div className="relative">
       <Carousel autoPlay={true} infiniteLoop={true}>
         <div>
           <img src={bannerImg1} />
@@ -20,10 +20,10 @@ const Banner = () => {
           <img src={bannerImg3} />
         </div>
       </Carousel>
-      <div className='flex items-center gap-2 absolute bottom-40 left-22'>
-        <button className='btn bg-primary rounded-xl '>Track Your Parcel</button>
-        <BsArrowUpRightCircleFill  className='text-3xl'/>
-        <button className='btn'>Be A Rider</button>
+      <div className="hidden lg:flex items-center gap-2 absolute bottom-40 left-22">
+        <button className="btn bg-primary rounded-xl">Track Your Parcel</button>
+        <BsArrowUpRightCircleFill className="text-3xl" />
+        <button className="btn">Be A Rider</button>
       </div>
     </div>
   );
