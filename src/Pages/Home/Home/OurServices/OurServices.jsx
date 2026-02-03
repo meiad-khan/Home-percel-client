@@ -51,8 +51,8 @@ const OurServices = () => {
   return (
     <div className="bg-secondary rounded-2xl text-white p-14">
       <div className=" flex flex-col items-center space-y-2.5 mb-5">
-        <h2 className="text-3xl font-bold">Our Services</h2>
-        <p className="text-sm text-center">
+        <h2 className="text-4xl font-bold">Our Services</h2>
+        <p className="text-[16px] text-center">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio
           <br></br>
           repellat accusamus qui temporibus earum nulla.
@@ -63,7 +63,7 @@ const OurServices = () => {
         {deliveryServices.map((service) => (
           <div
             key={service.id}
-            className="p-5 bg-base-100 space-y-2.5 rounded-xl"
+            className="p-5 bg-base-100 space-y-2.5 rounded-xl hover:bg-primary"
           >
             <div className='flex items-center justify-center'>
               <div className="flex justify-center items-center w-15 h-15  rounded-full bg-base-300">
@@ -71,7 +71,7 @@ const OurServices = () => {
               </div>
             </div>
             <div>
-              <h3 className="text-xl text-gray-800 font-medium">
+              <h3 className="text-xl text-secondary font-medium">
                 {service.title}
               </h3>
             </div>

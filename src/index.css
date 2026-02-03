@@ -16,3 +16,8 @@ body{
   font-optical-sizing: auto;
   background-color: #EBECED;
 }
+
+.active{
+  color: #03373D;
+  font-size: 16px;
+}
